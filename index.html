@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f8eeee">
+<meta name="description" content="Discover V.Velvela Glow Capsule Elixir — luxurious capsule skincare for hydrated, radiant-looking skin. Cash on delivery available in Pakistan.">
+<title>V.Velvela Beauty | Glow Deep. Hydrate Long.</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="announcement">A little luxury for your everyday ritual <span>✦</span> Cash on Delivery available in Pakistan</div>
+<header class="header">
+  <a class="brand" href="#home" aria-label="V.Velvela home"><span class="brand-mark">Ⅴ</span><span>V.VELVELA<small>BEAUTY, REFINED</small></span></a>
+  <button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button>
+  <nav id="nav"><a href="#collection">Shop</a><a href="#story">Our Ritual</a><a href="#benefits">The Benefits</a><a href="#contact">Contact</a></nav>
+  <button class="bag-button" id="openBag">Bag <span id="bagCount">0</span></button>
+</header>
+<main>
+<section class="hero" id="home">
+ <div class="hero-copy"><div class="eyebrow"><span></span> YOUR DAILY GLOW RITUAL</div><h1>Glow deep.<br><em>Hydrate long.</em></h1>
+ <p>Meet the Glow Capsule Elixir duo — a sensorial skincare ritual made for a fresh, dewy-looking glow and a touch of everyday luxury.</p>
+ <div class="hero-actions"><a class="button dark" href="#collection">Discover the duo <span>↗</span></a><a class="text-link" href="#story">Explore the ritual</a></div>
+ <div class="hero-note"><span>✧</span> Two elixirs. One luminous ritual.</div></div>
+ <div class="hero-art"><div class="orb orb-pink"></div><div class="orb orb-green"></div><img src="assets/hero-duo.png" alt="V.Velvela pink and mint Glow Capsule Elixir skincare jars" onerror="this.src='assets/beauty-duo.png'"><div class="floating-note">THE GLOW<br><b>CAPSULE DUO</b></div></div>
+</section>
+<section class="trust-strip"><div><span>✧</span> Hydration-focused care</div><div><span>✧</span> A sensorial gel texture</div><div><span>✧</span> Cash on delivery</div><div><span>✧</span> Made for your ritual</div></section>
+<section class="collection section" id="collection"><div class="section-heading"><div><div class="eyebrow">THE V.VELVELA EDIT</div><h2>Your glow, <em>in two moods.</em></h2></div><p>Choose your capsule elixir or bring both into your daily routine.</p></div>
+<div class="product-grid" id="productGrid"></div></section>
+<section class="story section" id="story"><div class="story-image"><img src="assets/beauty-duo.png" alt="V.Velvela Beauty Duo campaign visual"></div><div class="story-copy"><div class="eyebrow">SKINCARE, MADE SENSORY</div><h2>A moment of care.<br><em>A softer kind of glow.</em></h2><p>V.Velvela brings a little beauty-lab magic to your routine. Capsule-inspired textures, elegant details and a ritual that feels as good as it looks.</p><p>Apply to clean skin as directed on your product packaging. Follow with sunscreen in the daytime.</p><a href="#collection" class="text-link">Find your elixir <span>↗</span></a></div></section>
+<section class="benefits section" id="benefits"><div class="eyebrow">THE V.VELVELA FEELING</div><h2>Simple rituals. <em>Beautifully considered.</em></h2><div class="benefit-grid"><article><span>01</span><h3>Hydration first</h3><p>Designed to complement a routine focused on comfortable, hydrated-looking skin.</p></article><article><span>02</span><h3>Glow in every detail</h3><p>A capsule-inspired look and a silky, sensorial skincare experience.</p></article><article><span>03</span><h3>Your ritual, your way</h3><p>Choose the pink elixir, the mint elixir, or make the duo part of your shelf.</p></article></div></section>
+<section class="cta"><div><div class="eyebrow">YOUR NEXT FAVOURITE RITUAL</div><h2>Make room for a little <em>radiance.</em></h2></div><a class="button light" href="#collection">Shop V.Velvela <span>↗</span></a></section>
+</main>
+<footer id="contact"><div class="footer-top"><a class="brand" href="#home"><span class="brand-mark">Ⅴ</span><span>V.VELVELA<small>BEAUTY, REFINED</small></span></a><p>Glow inside and out.</p><div class="footer-links"><a href="#collection">Shop</a><a href="mailto:velvelabeauty@gmail.com">Email us</a><a href="#contact">Shipping & returns</a></div></div><div class="footer-bottom"><span>© <span id="year"></span> V.Velvela Beauty. All rights reserved.</span><span>Thoughtfully made for your daily ritual.</span></div></footer>
+<div class="overlay" id="overlay"></div>
+<aside class="drawer" id="bagDrawer" aria-label="Shopping bag" aria-hidden="true"><div class="drawer-head"><div><div class="eyebrow">YOUR SELECTION</div><h2>Your bag <span id="drawerCount">(0)</span></h2></div><button class="close" id="closeBag" aria-label="Close bag">×</button></div><div id="cartItems" class="cart-items"></div><div class="cart-bottom"><div class="subtotal"><span>Subtotal</span><strong id="subtotal">Rs 0</strong></div><p>Delivery charges, if any, will be confirmed with you.</p><button class="button dark full" id="checkoutBtn">Continue to checkout <span>→</span></button><small>Secure order request · Cash on delivery</small></div></aside>
+<div class="checkout-modal" id="checkoutModal" aria-hidden="true"><div class="modal-card"><button class="close modal-close" id="closeCheckout" aria-label="Close checkout">×</button><div class="eyebrow">ALMOST YOURS</div><h2>Complete your <em>order.</em></h2><p class="modal-intro">Add your delivery details. We’ll email your order request to V.Velvela.</p>
+<form id="orderForm"><div class="form-grid"><label>Full name<input name="name" required autocomplete="name" placeholder="Your name"></label><label>Phone number<input name="phone" required autocomplete="tel" inputmode="tel" placeholder="03XX XXXXXXX"></label><label class="wide">Email (optional)<input name="customer_email" type="email" autocomplete="email" placeholder="you@example.com"></label><label class="wide">Complete delivery address<textarea name="address" required rows="3" placeholder="House, street, area, city"></textarea></label><label>City<input name="city" required placeholder="e.g. Rawalpindi"></label><label>Payment method<select name="payment" required><option value="Cash on Delivery">Cash on Delivery (COD)</option></select></label><label class="wide">Order notes (optional)<textarea name="notes" rows="2" placeholder="Any delivery instructions?"></textarea></label></div><div class="order-summary"><span>Order total</span><strong id="checkoutTotal">Rs 0</strong></div><button class="button dark full" type="submit" id="placeOrder">Place COD order <span>→</span></button><p class="form-foot">By placing your order, you agree that V.Velvela may contact you to confirm delivery details.</p><div id="formMessage" role="status"></div></form></div></div>
+<script src="products.js"></script><script src="script.js"></script>
+</body></html>
