@@ -36,3 +36,13 @@ Upload the new image to `assets/` and set `image` to its path. Use a unique `id`
 - Confirm product claims, ingredients, directions, size, delivery fees, return policy and shipping regions before publishing.
 - The current form requests COD and emails the order request; it does not automatically dispatch parcels, calculate courier rates or sync inventory.
 - Add your final privacy policy, shipping/returns policy, contact number and social links before launch.
+
+## Newly added products
+This version adds:
+- Radiance Reveal Glutathione Cream (60g)
+- Kojic Acid Anti-Pigmentation Cream (60g)
+- V.Velvela Herbal Soap
+
+Hover over the two cream product cards on desktop to see their supplied campaign artwork. On touch-screen devices, the main product image remains visible and the quick-add button is shown. All five newly supplied images are included in `assets/`.
+
+**Please edit the sample prices in `products.js` before accepting customer orders.** Confirm the product labels, ingredients, directions and claims against your actual packaging before publishing.
